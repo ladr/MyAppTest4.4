@@ -31,7 +31,7 @@ public class Main extends Activity {
         super.onTouchEvent(event);
         myView.pX = event.getX();
         myView.pY = event.getY();
-        myView.pS = event.getPressure() * 50;
+        myView.pS = event.getPressure() * 75;
         myView.isTouched = true;
         TextView textView = (TextView)findViewById(R.id.textView);
         textView.setText("Touched!");

@@ -61,7 +61,7 @@ class MyView extends View {
         canvas.drawARGB(128,128,0,0);
         if(!isTouched){
             Rect rect = new Rect();
-            getDisplay().getRectSize(rect);
+                getDisplay().getRectSize(rect);
             canvas.drawCircle(rect.width()/2, rect.height()/2, rect.width()/4,mPaint);
         }else{
             canvas.drawCircle(pX,pY,pS,mPaint);

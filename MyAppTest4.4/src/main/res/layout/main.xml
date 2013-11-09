@@ -8,7 +8,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:text="HelloHello"
+        android:text="Hello, please touch"
         android:layout_gravity="center_horizontal" />
     <com.example.myapptest44.MyView
         android:id="@+id/myView"
